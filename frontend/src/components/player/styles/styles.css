@@ -1,0 +1,35 @@
+.custom-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.custom-controls button {
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-controls button:hover {
+  color: #007bff;
+}
+
+.custom-controls .react-player__controls {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-video {
+  background-color: black;
+  padding: 0 8.5%;
+}
+
+@media (min-width: 1192px) {
+  .wrapper-video {
+    padding: 0 14%;
+  }
+}

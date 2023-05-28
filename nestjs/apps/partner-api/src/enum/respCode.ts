@@ -1,0 +1,8 @@
+export enum RESPONSE {
+  SUCCESS_CODE = '0',
+  SUCCESS_MESSAGE = ' Success',
+  INVALID_CREDENTIAL_CODE = '401',
+  INVALID_CREDENTIAL_MESSAGE = 'Invalid credential',
+  INVALID_IP_CODE = '403',
+  INVALID_IP_MESSAGE = 'Invalid Ip',
+}

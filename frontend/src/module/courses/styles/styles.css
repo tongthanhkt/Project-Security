@@ -1,0 +1,18 @@
+.course-item:hover .course-item__title {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(4, 118, 244, 1) 0%,
+    rgba(4, 191, 253, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.course-item__title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

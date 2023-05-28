@@ -1,0 +1,18 @@
+.nav-item:hover {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(4, 118, 244, 1) 0%,
+    rgba(4, 191, 253, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-item {
+  background: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}

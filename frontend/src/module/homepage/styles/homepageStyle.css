@@ -1,0 +1,54 @@
+.statistic-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50%; /* adjust as needed */
+  bottom: 0;
+  width: 1px; /* adjust as needed */
+  background-color: #cce4ff; /* adjust as needed */
+}
+.choose-our__banner {
+  background: rgb(22, 137, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 137, 252, 1) 0%,
+    rgba(88, 207, 223, 1) 100%
+  );
+  border-radius: 10px;
+  padding-left: 102px;
+  padding-right: 102px;
+  padding-top: 50px;
+  padding-bottom: 76px;
+  color: white;
+}
+
+/* .career__title {
+  transition: all 0.5s ease-out;
+}
+.career :hover .career__description {
+  transition: all 0.5s ease-out;
+  display: block;
+} */
+.career__info {
+  --color: #1976d214;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  isolation: isolate;
+}
+
+.career__info:before {
+  content: "";
+  height: 100%;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color);
+  z-index: -1;
+  transition: width 0.25s ease-in;
+  border-radius: 8px;
+}
+.career__info:hover:before {
+  width: 100%;
+}
